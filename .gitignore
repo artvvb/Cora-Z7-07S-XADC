@@ -22,21 +22,28 @@ proj/**
 
 # SDK Workspace: Edit this section to provide the correct names for APPLICATION, BSP, and HW_PLATFORM
 sdk/**
-!sdk/APPLICATION/.project
-!sdk/APPLICATION/.cproject
-!sdk/APPLICATION/src
-!sdk/BSP/.project
-!sdk/BSP/.cproject
-!sdk/BSP/.sdkproject
-# !sdk/BSP/system.mss
-# !sdk/BSP/Makefile
-!sdk/HW_PLATFORM/.project
+!sdk/cora_xadc
+sdk/cora_xadc/**
+!sdk/cora_xadc/.project
+!sdk/cora_xadc/.cproject
+!sdk/cora_xadc/src
+!sdk/cora_xadc/src/**
+!sdk/cora_xadc_bsp
+sdk/cora_xadc_bsp/**
+!sdk/cora_xadc_bsp/.project
+!sdk/cora_xadc_bsp/.cproject
+!sdk/cora_xadc_bsp/.sdkproject
+!sdk/cora_xadc_bsp/system.mss
+!sdk/cora_xadc_bsp/Makefile
+!sdk/design_1_wrapper_hw_platform_0
+sdk/design_1_wrapper_hw_platform_0/**
+!sdk/design_1_wrapper_hw_platform_0/.project
 
 # IP Repository: Whitelist all contents of local. Blacklist all contents of everything else.
 repo/**
-!repo/vivado-library/
+!repo/vivado-library
 repo/vivado-library/**
-!repo/local/
+!repo/local
 !repo/local/**
 !repo/cache
 repo/cache/**

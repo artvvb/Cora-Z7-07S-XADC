@@ -2,8 +2,8 @@
 # If ::create_path global variable is set, the project is created under that path instead of the working dir
 
 # Project specific settings. These must be updated for each project.
-set proj_name "FIXME"
-
+set proj_name "XADC"
+set ::create_path [file normalize ../proj]
 if {[info exists ::create_path]} {
     set dest_dir $::create_path
 } else {
@@ -13,8 +13,8 @@ puts "INFO: Creating new project in $dest_dir"
 cd $dest_dir
 
 
-set part "FIXME"
-set brd_part "digilentinc.com:FIXME"
+set part "xc7z007sclg400-1"
+set brd_part "digilentinc.com:cora-z7-07s:part0:1.0"
 
 
 # Set the reference directory for source file relative paths (by default the value is script directory path)
