@@ -1,5 +1,5 @@
 # Blacklist everything
-/*
+/**
 
 # Root: Whitelist the necessary files and folders, this gets everything from inside them too
 !.gitignore
@@ -43,11 +43,21 @@ repo/cache/**
 
 # Sources directory:
 src/**
+!src/bd
+src/bd/**
 !src/bd/system.tcl
+!src/constraints
+src/constraints/**
 !src/constraints/*.xdc
+!src/hdl
+src/hdl/**
 !src/hdl/*.v
 !src/hdl/*.vhd
+!src/ip
+src/ip/**
 !src/ip/**/*.xci
+!src/other
+src/other/**
 !src/other/**
 
 # Keep important empty folders
