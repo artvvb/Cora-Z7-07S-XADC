@@ -7,18 +7,13 @@
 !README.md
 !LICENSE
 !proj/
-!scripts/
 !repo/
 !sdk/
 !src/
 
-# Scripts Directory (likely to become a submodule)
-scripts/**
-!scripts/create_project.tcl
-!scripts/release_project.py
-
 # Project Directory (Vivado Workspace)
 proj/**
+!proj/project_info.tcl
 
 # SDK Workspace: Edit this section to provide the correct names for APPLICATION, BSP, and HW_PLATFORM
 sdk/**
